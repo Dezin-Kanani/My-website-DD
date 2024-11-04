@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFFFE0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 22%;
+    background-color: #FFFFCC;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 span {
+    border: 1px solid #000;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sidebar .menu {
+    list-style-type: none;
+}
+
+.sidebar .menu li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sidebar .menu li button {
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.sidebar .menu a {
+    font-weight: bold;
+    color: #0057b7;
+    text-decoration: none;
+}
+
+.sidebar .menu ul {
+    margin-left: 20px;
+}
+
+.sidebar .settings-btn {
+    display: block;
+    background-color: #000;
+    color: #FFCC00;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.menu-item {
+    padding: 10px 0;
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.menu-item.active {
+    color: blue;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    background-color: #eaeaea;
+}
+
+.menu-item-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.settings {
+    margin-top: 20px;
+    background-color: #ffd700;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 70%;
+    padding: 10px;
+}
+
+.friends-list {
+    width: 100%;
+}
+
+.friend-item {
+    background-color: #e0f7cc;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend-item .user-info {
+    display: flex;
+    align-items: center;
+}
+
+.friend-item .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-right: 15px;
+    border: 2px solid black;
+}
+
+.friend-item .user-details {
+    font-size: 14px;
+}
+
+.friend-item .status {
+    color: green;
+    font-weight: bold;
+}
+
+.friend-item .join-info {
+    font-size: 14px;
+}

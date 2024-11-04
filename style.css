@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #FFFFE0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 22%;
+    background-color: #FFFFCC;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 span {
+    border: 1px solid #000;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.sidebar .menu {
+    list-style-type: none;
+}
+
+.sidebar .menu li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.sidebar .menu li button {
+    padding: 7px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.sidebar .menu a {
+    font-weight: bold;
+    color: #0057b7;
+    text-decoration: none;
+}
+
+.sidebar .menu ul {
+    margin-left: 20px;
+}
+
+.sidebar .settings-btn {
+    display: block;
+    background-color: #000;
+    color: #FFCC00;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.main-content {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 45%;
+    background-color: #F0FFF0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    background-color: #FFCC99;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.profile-picture img {
+    width: 100px;
+}
+
+.notifications {
+    background-color: #E6E6FA;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    margin-bottom: 40px;
+}
+
+.notification-box {
+    background-color: #E0E0E0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
